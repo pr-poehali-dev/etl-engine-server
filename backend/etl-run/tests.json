@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "No auth header → 401",
+      "method": "POST",
+      "path": "/",
+      "body": {"rule_id": 1},
+      "expectedStatus": 401,
+      "expectedBody": {"error": "Unauthorized"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

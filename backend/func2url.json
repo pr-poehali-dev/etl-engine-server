@@ -1,4 +1,5 @@
 {
+  "etl-run": "https://functions.poehali.dev/6ccb9013-eb01-429e-aa05-0b1a0cd72c75",
   "etl-save-rule": "https://functions.poehali.dev/4319dd2a-83d6-49c6-8de1-473bd4cd8851",
   "etl-list-rules": "https://functions.poehali.dev/26e7f53c-0255-463a-b81d-d6be36dbeffb",
   "etl-get-logs": "https://functions.poehali.dev/63e2bb81-21a2-4988-96fb-4596b057f2f8"
