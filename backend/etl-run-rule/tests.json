@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Run rule - missing rule_id",
+      "method": "POST",
+      "path": "/",
+      "body": {},
+      "expectedStatus": 400,
+      "expectedBody": {"error": "rule_id required"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

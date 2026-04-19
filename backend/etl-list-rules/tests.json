@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "List rules",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"rules": []},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

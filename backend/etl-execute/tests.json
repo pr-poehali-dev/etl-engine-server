@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Execute all active rules",
+      "method": "POST",
+      "path": "/",
+      "body": {"data": {"value": 42}},
+      "expectedStatus": 200,
+      "expectedBody": {"total": 0},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

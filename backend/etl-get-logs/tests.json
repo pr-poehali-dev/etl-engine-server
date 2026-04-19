@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "Get all logs",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"logs": []},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

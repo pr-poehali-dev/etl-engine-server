@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Save rule - missing fields",
+      "method": "POST",
+      "path": "/",
+      "body": {},
+      "expectedStatus": 400,
+      "expectedBody": {"error": "name and code_b64 are required"},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Save new rule",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Test Rule", "code_b64": "b3V0cHV0ID0gJ09LJw==", "description": "test"},
+      "expectedStatus": 200,
+      "expectedBody": {"status": "saved"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
